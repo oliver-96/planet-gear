@@ -59,7 +59,7 @@ a_ax_slider = plt.axes([0.25, 0.05, 0.5, 0.03])  # [left, bottom, width, height]
 speed_ax_slider = plt.axes([0.25, 0.01, 0.5, 0.03])  # [left, bottom, width, height]
 
 k_slider = Slider(k_ax_slider, 'k = R/r', 1, 10, valinit=k_initial, valstep=0.1)
-a_slider = Slider(a_ax_slider, 'a', 0, 2, valinit=a_initial, valstep=0.1)
+a_slider = Slider(a_ax_slider, 'a', 0, 10, valinit=a_initial, valstep=0.1)
 speed_slider = Slider(speed_ax_slider, 'Speed', 0, 1, valinit=0.5, valstep=0.05)
 
 # --- Radio button setup ---
